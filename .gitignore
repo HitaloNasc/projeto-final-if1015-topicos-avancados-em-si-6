@@ -1,0 +1,101 @@
+# ============================================
+# AMBIENTE PYTHON / VENV
+# ============================================
+.venv/
+venv/
+env/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================================
+# MACOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# TRANSFORMERS / HUGGINGFACE
+# ============================================
+# Pesos de modelos
+pytorch_model.bin
+tf_model.h5
+rust_model.ot
+*.safetensors
+
+# Cache do Transformers
+~/.cache/huggingface/
+huggingface_cache/
+transformers_cache/
+
+# Cache de datasets
+~/.cache/huggingface/datasets/
+dataset_cache/
+datasets_cache/
+
+# Tokenizers
+tokenizer.json
+tokenizer_config.json
+special_tokens_map.json
+
+# ============================================
+# MODELOS SALVOS
+# ============================================
+baseline_model/
+outputs/
+checkpoints/
+models/
+saved_models/
+
+# ============================================
+# ARQUIVOS TEMPORÁRIOS
+# ============================================
+*.tmp
+*.temp
+*.log
+
+# ============================================
+# DADOS LOCAIS
+# ============================================
+dataset/
+data/
+*.csv
+*.tsv
+*.jsonl
+
+# Evitar subir dataset do Kaggle
+dataset/train.csv
+dataset/test.csv
+dataset/*.csv
+
+# ============================================
+# CACHE DE PYTORCH / TORCH
+# ============================================
+~/.cache/torch/
+torch_cache/
+
+# ============================================
+# EDITORES E IDEs
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================
+# CONFIGURAÇÕES
+# ============================================
+.env
+*.env
+.env.*
