@@ -159,10 +159,10 @@ Val F1: 0.7426
 # 8. Gráficos
 
 ### Loss por Epoch  
-![alt text](loss-por-epoch.png)
+![alt text](images/loss-por-epoch.png)
 
 ### F1 Micro por Epoch  
-![alt text](f1-micro-por-epoch.png)
+![alt text](images/f1-micro-por-epoch.png)
 
 ---
 
